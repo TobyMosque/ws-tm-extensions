@@ -1,7 +1,17 @@
 {
     "private": true,
     "workspaces": {
-      "packages": ["qdatetimepicker"]
+      "packages": ["qdatetimepicker/ui", "qdatetimepicker/app-extension"]
     },
-    "scripts": {}
+    "scripts": {
+      "qdtp:ui:dev": "yarn workspace quasar-ui-qdatetimepicker dev",
+      "qdtp:ui:dev:umd": "yarn workspace quasar-ui-qdatetimepicker dev:umd",
+      "qdtp:ui:dev:ssr": "yarn workspace quasar-ui-qdatetimepicker dev:ssr",
+      "qdtp:ui:dev:ios": "yarn workspace quasar-ui-qdatetimepicker dev:ios",
+      "qdtp:ui:dev:android": "yarn workspace quasar-ui-qdatetimepicker dev:android",
+      "qdtp:ui:dev:electron": "yarn workspace quasar-ui-qdatetimepicker dev:electron",
+      "qdtp:ui:build": "yarn workspace quasar-ui-qdatetimepicker build",
+      "qdtp:ui:build:js": "yarn workspace quasar-ui-qdatetimepicker build:js",
+      "qdtp:ui:build:css": "yarn workspace quasar-ui-qdatetimepicker build:css"
+    }
   }
