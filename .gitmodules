@@ -1,4 +1,4 @@
 [submodule "qdatetimepicker"]
-path = backend
+path = qdatetimepicker
 url = https://github.com/TobyMosque/app-extension-qdatetimepicker.git
 branch = v2
